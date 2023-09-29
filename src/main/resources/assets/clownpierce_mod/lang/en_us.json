@@ -1,0 +1,14 @@
+{
+  "advancements.on_clown_pierce_way.descr": "Get ClownPierce\u0027s Scythe",
+  "entity.clownpierce_mod.c_2": "ClownPierce",
+  "item.clownpierce_mod.c_2_spawn_egg": "ClownPierce Spawn Egg",
+  "item.clownpierce_mod.s_12": "ClownPierce Scroll",
+  "itemGroup.tabclown_pierce_mod_addons": "ClownPierce Mod Addons",
+  "item_group.clownpierce_mod.clown_pierce_mod_addons": "ClownPierce Mod Addons",
+  "item.clownpierce_mod.s_2": "Scythe",
+  "item.clownpierce_mod.clown_pierce_ring": "ClownPierce Scroll",
+  "item.clownpierce_mod.scythe": "Scythe",
+  "item.clownpierce_mod.clown_pierce_spawn_egg": "ClownPierce Spawn Egg",
+  "entity.clownpierce_mod.clown_pierce": "ClownPierce",
+  "advancements.on_clown_pierce_way.title": "On ClownPierce\u0027s Way"
+}

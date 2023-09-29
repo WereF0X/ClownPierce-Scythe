@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "2": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "clownpierce_mod:scythe"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "clownpierce_mod:clown_pierce_ring",
+    "count": 1
+  }
+}

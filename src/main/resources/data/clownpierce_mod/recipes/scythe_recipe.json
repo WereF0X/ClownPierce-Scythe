@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "clownpierce_mod:scythe",
+    "count": 1
+  }
+}

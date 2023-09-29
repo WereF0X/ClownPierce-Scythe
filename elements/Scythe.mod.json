@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "diamond_axe",
+    "customModelName": "Normal",
+    "name": "Scythe",
+    "specialInfo": [
+      "ClownPierce's Scythe."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 0.85,
+    "enchantability": 4,
+    "damageVsEntity": 14.8,
+    "usageCount": 156,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ScytheRightclicked"
+    }
+  }
+}

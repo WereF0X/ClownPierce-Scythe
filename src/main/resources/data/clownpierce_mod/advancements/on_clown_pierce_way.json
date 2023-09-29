@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "clownpierce_mod:scythe"
+    },
+    "title": {
+      "translate": "advancements.on_clown_pierce_way.title"
+    },
+    "description": {
+      "translate": "advancements.on_clown_pierce_way.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "on_clown_pierce_way": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clownpierce_mod:scythe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "clownpierce_mod:chests/clown_pierce_kit"
+    ]
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

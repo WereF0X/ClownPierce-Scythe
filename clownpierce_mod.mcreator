@@ -1,0 +1,314 @@
+{
+  "mod_elements": [
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/clownpierce_mod/models/item/scythe.json",
+          "src/main/java/net/mcreator/clownpiercemod/item/ScytheItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ScytheRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/clownpierce_mod/recipes/scythe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OnClownPierceWay",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_clown_pierce_way",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/clownpierce_mod/advancements/on_clown_pierce_way.json"
+        ]
+      }
+    },
+    {
+      "name": "ClownPierce",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/client/renderer/ClownPierceRenderer.java",
+          "src/main/java/net/mcreator/clownpiercemod/entity/ClownPierceEntity.java",
+          "src/main/resources/assets/clownpierce_mod/models/item/clown_pierce_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Scythetrade",
+      "type": "villagertrade",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythetrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ClownPierceKit",
+      "type": "loottable",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/clownpierce_mod/loot_tables/chests/clown_pierce_kit.json"
+        ]
+      }
+    },
+    {
+      "name": "ClownPierceEntityDies",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/procedures/ClownPierceEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScytheRightclicked",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/procedures/ScytheRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClowndiskRightclicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clowndisk_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/procedures/ClowndiskRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClownPierceRingRightclicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce_ring_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/procedures/ClownPierceRingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClownPierceRing",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/clownpierce_mod/models/item/clown_pierce_ring.json",
+          "src/main/java/net/mcreator/clownpiercemod/item/ClownPierceRingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ScrollRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/clownpierce_mod/recipes/scroll_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ClownPierceModAddons",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clown_pierce_mod_addons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "S2",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/item/S2Item.java",
+          "src/main/resources/assets/clownpierce_mod/models/item/s_2.json"
+        ]
+      }
+    },
+    {
+      "name": "C2",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/client/renderer/C2Renderer.java",
+          "src/main/resources/assets/clownpierce_mod/models/item/c_2_spawn_egg.json",
+          "src/main/java/net/mcreator/clownpiercemod/entity/C2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "S12",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownpiercemod/item/S12Item.java",
+          "src/main/resources/assets/clownpierce_mod/models/item/s_12.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.on_clown_pierce_way.descr": "Get ClownPierce\u0027s Scythe",
+      "entity.clownpierce_mod.c_2": "ClownPierce",
+      "item.clownpierce_mod.c_2_spawn_egg": "ClownPierce Spawn Egg",
+      "item.clownpierce_mod.s_12": "ClownPierce Scroll",
+      "itemGroup.tabclown_pierce_mod_addons": "ClownPierce Mod Addons",
+      "item_group.clownpierce_mod.clown_pierce_mod_addons": "ClownPierce Mod Addons",
+      "item.clownpierce_mod.s_2": "Scythe",
+      "item.clownpierce_mod.clown_pierce_ring": "ClownPierce Scroll",
+      "item.clownpierce_mod.scythe": "Scythe",
+      "item.clownpierce_mod.clown_pierce_spawn_egg": "ClownPierce Spawn Egg",
+      "entity.clownpierce_mod.clown_pierce": "ClownPierce",
+      "advancements.on_clown_pierce_way.title": "On ClownPierce\u0027s Way"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "clownpierce_mod",
+    "modName": "ClownPierce Mod",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "updateURL": "https://legacy.curseforge.com/minecraft/mc-mods/clownpierce/files",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.clownpiercemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

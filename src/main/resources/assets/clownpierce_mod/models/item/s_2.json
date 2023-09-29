@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "clownpierce_mod:item/diamond_axe"
+  }
+}
